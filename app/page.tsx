@@ -51,17 +51,14 @@ export default function Home() {
           </div>
           <div className="feature-grid">
             <div className="feature-card">
-              <span>✨</span>
               <h3>Signature Designs</h3>
               <p>3D florals, pearl shine, and translucent gradients created for special occasions.</p>
             </div>
             <div className="feature-card">
-              <span>💅</span>
               <h3>Care & Comfort</h3>
               <p>Every appointment includes cuticle care, nail shaping, and a soothing finish.</p>
             </div>
             <div className="feature-card">
-              <span>📅</span>
               <h3>Easy Booking</h3>
               <p>Choose your preferred service, date, and style directly from the website.</p>
             </div>
@@ -95,7 +92,7 @@ export default function Home() {
             </p>
           </div>
           <div className="gallery-grid">
-            {['nail-1.jpg', 'nail-2.jpg', 'nail-3.jpg', 'nail-4.jpg'].map((image) => (
+            {['nail-1.png', 'nail-2.png', 'nail-3.png', 'nail-4.png'].map((image) => (
               <div key={image} className="gallery-card">
                 <img src={`/images/${image}`} alt={`Nail design ${image}`} />
               </div>

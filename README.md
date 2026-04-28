@@ -43,10 +43,10 @@ Deploy this repository on Vercel and configure the same Supabase environment var
 
 ## Images
 Place your four nail photos into `public/images/` with these file names:
-- `nail-1.jpg`
-- `nail-2.jpg`
-- `nail-3.jpg`
-- `nail-4.jpg`
+- `nail-1.png`
+- `nail-2.png`
+- `nail-3.png`
+- `nail-4.png`
 
 Once those are in place, the gallery on the homepage will show them automatically.
 
